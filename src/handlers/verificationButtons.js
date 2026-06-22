@@ -43,8 +43,8 @@ export async function handleVerificationButton(interaction, client) {
 
         await InteractionHelper.safeEditReply(interaction, {
             embeds: [successEmbed(
-                "✅ Verification Successful!",
-                `You have been verified and given the **${result.roleName}** role!\n\nYou now have access to all server channels and features. Welcome! 🎉`
+                "✅ Верификация пройдена успешно!",
+                `Ты верифицировался и получил роль **${result.roleName}**!\n\nТеперь ты можешь создать тикет! 🎉`
             )],
         });
 
