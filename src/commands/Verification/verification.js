@@ -183,7 +183,6 @@ async function handleSetup(interaction, guild, client) {
 
     const verifyEmbed = createEmbed({
         title: "Верификация",
-        description: message,
         color: getColor('success')
     });
 
